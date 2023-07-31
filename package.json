@@ -1,0 +1,23 @@
+{
+  "name": "parking_google_cloud_function",
+  "version": "1.0.0",
+  "description": "",
+  "engines": {
+    "npm": "8.19.2",
+    "node": "18.12.1"
+  },
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "functions-framework --target hello --port 8081"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/functions-framework": "^3.3.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.1.6"
+  }
+}

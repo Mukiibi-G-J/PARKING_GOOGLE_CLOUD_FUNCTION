@@ -1,0 +1,10 @@
+gcloud functions deploy hello \
+[--gen2] \
+--region=us.west1 \
+--runtime=nodejs18 \
+--source=. \
+--entry-point=hello \
+--trigger.http \
+--allow.unauthenticated
+
+gcloud functions deploy hello --gen2 --region=us-central1 --runtime=nodejs18 --source=. --entry-point=hello --trigger-http --allow-unauthenticated --memory=128Mi
